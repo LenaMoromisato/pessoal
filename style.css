@@ -1,0 +1,211 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa {
+    background: #86a96f;
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.principal img {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+.principal p {
+    text-align: justify;
+}
+
+.social {
+    width: 100%;
+    margin: auto;
+    display: inline;
+}
+
+.midia {
+    width: 20px;
+}
+
+.formacao {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.formacao li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.formacao li:hover {
+    border-color: #c5d5ba;
+}
+
+.formacao li:active {
+    border-color: #088C19;
+}
+
+.formacao li:hover h2 {
+    font-size: 34px;
+}
+
+.formacao h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.formacao-img {
+    width: 100px;
+}
+
+.formacao-portfolio {
+    width: 250px;
+}
+
+.formacao-descricao {
+    font-size: 18px;
+}
+
+.formacao-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.portfolio {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.portfolio li {
+    display: block;
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.portfolio li:hover {
+    border-color: #c5d5ba;
+}
+
+.portfolio li:active {
+    border-color: #088C19;
+}
+
+.portfolio li:hover h2 {
+    font-size: 34px;
+}
+
+.portfolio h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.portfolio-img {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.portfolio-portfolio {
+    width: 250px;
+}
+
+.portfolio-descricao {
+    font-size: 18px;
+}
+
+.portfolio-data {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #86a96f;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #5c7a49;
+    transform: scale(1.2);
+}
+
+/* css da página inicial */
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
